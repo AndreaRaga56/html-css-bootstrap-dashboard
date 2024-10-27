@@ -1,14 +1,18 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.img{
+a {
+   text-decoration-line: none;
+}
+
+.img {
     max-width: 100%;
 }
 
-.duck{
+.duck {
     width: 50px;
 }
 
@@ -17,13 +21,26 @@ header {
     padding: 10px;
 }
 
-.data{
+.data {
     display: none;
 }
 
 
+/* New Book */
+////////////////////////////////////////
+
+.input-autore{
+    width: 60%;
+}
+
+.prova{
+    width: 100%;
+}
+
+
+
 @media (min-width: 768px) {
-    .data{
+    .data {
         display: table-cell;
         max-width: 100%;
     }
